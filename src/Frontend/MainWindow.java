@@ -70,11 +70,6 @@ public class MainWindow {
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame();
-        frame.setContentPane(new MainWindow(frame).JPanel_mainWindow);
-    }
-
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
