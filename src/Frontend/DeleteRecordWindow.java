@@ -73,13 +73,7 @@ public class DeleteRecordWindow {
             }
         });
     }
-
-    public static void main(String[] args) {
-        JFrame frame = new JFrame();
-        frame.setContentPane(new DeleteRecordWindow(frame).JPanel_deleteRecord);
-        frame.setVisible(true);
-    }
-
+    
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
