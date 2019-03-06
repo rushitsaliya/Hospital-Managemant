@@ -47,6 +47,7 @@ public class ViewRecordWindow {
                 try {
                     rst = pstmt.executeQuery();
                     table.setModel(DbUtils.resultSetToTableModel(rst));
+                    rst.close();
                 } catch (SQLException e1) {
                     e1.printStackTrace();
                 }
