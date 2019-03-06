@@ -87,11 +87,13 @@ public class SearchRecordWindow {
                         lbl0_result.setText(rst.getString("Specialization"));
                         lbl1.setText("Availability");
                         lbl1_result.setText(rst.getString("Availability"));
+                        rst.close();
                     } else {
                         lbl0.setText("Phone No.");
                         lbl0_result.setText(rst.getString("Phoneno"));
                         lbl1.setText("City");
                         lbl1_result.setText(rst.getString("City"));
+                        rst.close();
                     }
                 } catch (SQLException e1) {
                     JOptionPane.showMessageDialog(null, "Insufficient or invalid details provided!", "Error", JOptionPane.ERROR_MESSAGE);
