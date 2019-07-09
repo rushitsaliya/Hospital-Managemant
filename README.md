@@ -1,5 +1,5 @@
 # Hospital-Managemant-Project in JAVA
-This project contains some basic functionality regarding managing record of a hospital.
+This project contains some basic functionality regarding managing record by CRUD operations regarding Hospital Management System.
 
 Here are some screenshots of this project:
 
